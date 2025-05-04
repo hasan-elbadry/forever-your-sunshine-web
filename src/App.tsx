@@ -28,7 +28,7 @@ const App = () => (
               <Route path="/gallery" element={<Gallery />} />
               <Route path="/notes" element={<Notes />} />
               <Route path="/timeline" element={<Timeline />} />
-              <Route path="*" element={<NotFound />} />
+              <Route path="*" element={<Index />} />
             </Routes>
           </main>
           <Footer />
